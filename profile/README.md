@@ -17,7 +17,7 @@ We understand the importance of cost-effectiveness in every business venture. By
 ## Join Our Team
 Are you passionate about technology and innovation? Looking for a dynamic and rewarding career in the IT industry? Join our team of visionaries, problem-solvers, and creative minds. At Maxinum Consulting, we nurture talent, encourage growth, and provide an inspiring work environment. Together, let's shape the future of IT.
 
-## Let's Get Started!
+Let's Get Started!
 Whether you need to scale your business, optimize processes, or unlock new opportunities, [Company Name] is here to make it happen. Let's embark on a transformative journey together.
 
 Contact us at [contact@email.com] or call [phone number] to discuss your project or explore exciting career opportunities.
