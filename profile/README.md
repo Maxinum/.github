@@ -1,5 +1,5 @@
 # Welcome to Maxinum
-At [Company Name], we are your trusted partner for all your IT outsourcing needs. With a commitment to excellence, innovation, and client satisfaction, we offer a wide range of cutting-edge IT services tailored to meet your unique business requirements. Whether you're a growing startup, a small business, or an established enterprise, our team of skilled professionals is here to accelerate your success.
+  At Maxinum Consulting, we are your trusted partner for all your IT outsourcing needs. With a commitment to excellence, innovation, and client satisfaction, we offer a wide range of cutting-edge IT services tailored to meet your unique business requirements. Whether you're a growing startup, a small business, or an established enterprise, our team of skilled professionals is here to accelerate your success.
 
 Why Choose Us?
 1. Expertise and Experience
@@ -22,6 +22,6 @@ Whether you need to scale your business, optimize processes, or unlock new oppor
 
 Contact us at [contact@email.com] or call [phone number] to discuss your project or explore exciting career opportunities.
 
-Visit us at [website] to learn more about how we can take your business to new heights.
+Visit us at maxinum.co to learn more about how we can take your business to new heights.
 
-Note: Please replace the placeholders ([Company Name], [contact@email.com], [phone number], [website]) with the actual details of your IT outsource company. Additionally, you may want to add specific details about the services you offer and the benefits of joining your company as an employee.
+Note: Please replace the placeholders (Maxinum Consulting LTD, [contact@email.com], [phone number], [website]) with the actual details of your IT outsource company. Additionally, you may want to add specific details about the services you offer and the benefits of joining your company as an employee.
