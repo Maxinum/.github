@@ -2,7 +2,7 @@
 
 name: 🐞 Bug
 description: Структурированное описание бага для команды
-title: ""
+title: "[BUG]:"
 labels: [bug]
 assignees: []
 
