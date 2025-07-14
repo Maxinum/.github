@@ -1,0 +1,17 @@
+# @format
+
+name: 🐞 Bug Report
+description: Сообщить об ошибке
+title: "[BUG]: "
+labels: [bug]
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Спасибо, что сообщаете об ошибке!
+    - type: textarea
+      id: what-happened
+      attributes:
+          label: Что произошло?
+          description: Опишите баг подробно.
+          placeholder: Например, при нажатии на кнопку...
