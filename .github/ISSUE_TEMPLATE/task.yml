@@ -2,7 +2,7 @@
 
 name: 📌 Задача (Backend / Frontend)
 description: Создание задачи для проекта (backend, frontend)
-title: "[TASK]: <Краткое описание задачи>"
+title: ""
 labels: ["task"]
 assignees: []
 
