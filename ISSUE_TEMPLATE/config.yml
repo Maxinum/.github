@@ -1,0 +1,7 @@
+# @format
+
+blank_issues_enabled: true
+contact_links:
+    - name: Поддержка
+      url: https://maxinum.co
+      about: Напишите сюда, если не можете создать issue
