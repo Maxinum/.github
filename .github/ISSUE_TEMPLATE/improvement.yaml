@@ -1,0 +1,37 @@
+# @format
+
+name: 🛠 Improvement
+description: Улучшение существующего функционала
+title: "[IMPROVEMENT]:"
+labels: ["enhancement"]
+assignees: []
+
+body:
+    - type: textarea
+      id: summary
+      attributes:
+          label: 📌 Что улучшаем
+          placeholder: |
+              Например: Оптимизировать рендер таблицы заказов
+      validations:
+          required: true
+
+    - type: textarea
+      id: benefit
+      attributes:
+          label: ✅ Что это даст
+          placeholder: |
+              Например: Повысим производительность и UX для пользователей с медленным интернетом
+      validations:
+          required: true
+
+    - type: textarea
+      id: plan
+      attributes:
+          label: 📝 План изменений (по пунктам)
+          placeholder: |
+              1. Провести замеры производительности
+              2. Использовать virtualization
+              3. Убрать лишние ререндеры
+      validations:
+          required: false

@@ -1,0 +1,39 @@
+# @format
+
+name: ✨ Feature
+description: Новая функциональность для продукта
+title: "[FEATURE]:"
+labels: ["feature"]
+assignees: []
+
+body:
+    - type: textarea
+      id: summary
+      attributes:
+          label: 💡 Идея фичи
+          description: Что именно нужно реализовать и зачем.
+          placeholder: |
+              Например: Добавить возможность входа через Telegram
+      validations:
+          required: true
+
+    - type: textarea
+      id: goal
+      attributes:
+          label: 🎯 Цель / Польза
+          description: Какую проблему решает или какую ценность несёт эта фича.
+          placeholder: |
+              Например: Это упростит вход для пользователей с Telegram
+      validations:
+          required: true
+
+    - type: textarea
+      id: requirements
+      attributes:
+          label: 📋 Требования
+          description: Перечисли основные требования и ограничения
+          placeholder: |
+              - Аутентификация через Telegram
+              - Привязка к существующему пользователю по email
+      validations:
+          required: true

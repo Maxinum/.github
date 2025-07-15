@@ -1,0 +1,36 @@
+# @format
+
+name: 🔬 Spike (исследование)
+description: Задача для технического исследования
+title: "[SPIKE]:"
+labels: ["spike"]
+assignees: []
+
+body:
+    - type: textarea
+      id: question
+      attributes:
+          label: ❓ Вопрос или проблема
+          placeholder: |
+              Например: Можно ли реализовать авторизацию через X в текущей архитектуре?
+      validations:
+          required: true
+
+    - type: textarea
+      id: research
+      attributes:
+          label: 🔍 Что исследуем
+          placeholder: |
+              - Изучить возможности API X
+              - Проверить, поддерживается ли протокол Y
+      validations:
+          required: true
+
+    - type: textarea
+      id: outcome
+      attributes:
+          label: 🧠 Ожидаемый результат
+          placeholder: |
+              Например: Документ с выводами и рекомендациями
+      validations:
+          required: false

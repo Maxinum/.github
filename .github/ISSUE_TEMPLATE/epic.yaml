@@ -1,0 +1,40 @@
+# @format
+
+name: 🧱 Epic
+description: Крупная задача, объединяющая множество подзадач
+title: "[EPIC]:"
+labels: ["epic"]
+assignees: []
+
+body:
+    - type: textarea
+      id: goal
+      attributes:
+          label: 🎯 Цель эпика
+          placeholder: |
+              Например: Разработать MVP версии CRM
+      validations:
+          required: true
+
+    - type: textarea
+      id: deliverables
+      attributes:
+          label: 📦 Результаты / Составляющие
+          placeholder: |
+              - Авторизация
+              - Работа с клиентами
+              - Отчёты
+              - Настройки
+      validations:
+          required: true
+
+    - type: textarea
+      id: links
+      attributes:
+          label: 🔗 Связанные задачи
+          placeholder: |
+              - #45
+              - #46
+              - #47
+      validations:
+          required: false

@@ -1,0 +1,35 @@
+# @format
+
+name: 📖 User Story
+description: Пользовательская история в формате роли, цели и ценности
+title: "[STORY]:"
+labels: ["story"]
+assignees: []
+
+body:
+    - type: textarea
+      id: userStory
+      attributes:
+          label: 👤 User Story
+          placeholder: |
+              Как [тип пользователя], я хочу [цель], чтобы [результат/ценность].
+      validations:
+          required: true
+
+    - type: textarea
+      id: acceptance
+      attributes:
+          label: ✅ Acceptance Criteria
+          placeholder: |
+              - [ ] Пользователь может ...
+              - [ ] После действия происходит ...
+      validations:
+          required: true
+
+    - type: input
+      id: epic
+      attributes:
+          label: 🧱 Связанный Epic (если есть)
+          placeholder: "#123"
+      validations:
+          required: false
