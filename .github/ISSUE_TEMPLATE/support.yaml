@@ -1,0 +1,34 @@
+# @format
+
+name: 🛎 Запрос от клиента / поддержки
+description: Обращение от пользователя или поддержки
+title: "[SUPPORT]:"
+labels: ["support"]
+assignees: []
+
+body:
+    - type: textarea
+      id: request
+      attributes:
+          label: 📨 Суть запроса
+          placeholder: |
+              Например: Клиент просит возможность выгрузки истории заказов
+      validations:
+          required: true
+
+    - type: input
+      id: from
+      attributes:
+          label: 🧍 От кого запрос
+          placeholder: |
+              Например: Клиент / Поддержка / Sales / CEO
+      validations:
+          required: false
+
+    - type: textarea
+      id: comment
+      attributes:
+          label: 💬 Комментарии / контекст
+          placeholder: Любые дополнительные детали
+      validations:
+          required: false

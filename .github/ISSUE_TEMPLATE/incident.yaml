@@ -1,0 +1,42 @@
+# @format
+
+name: 🚨 Incident / Продакшен-проблема
+description: Срочная ошибка на проде
+title: "[INCIDENT]:"
+labels: ["incident", "high-priority"]
+assignees: []
+
+body:
+    - type: textarea
+      id: problem
+      attributes:
+          label: 💥 Что произошло
+          placeholder: |
+              Например: Оплата перестала работать на всех проектах
+      validations:
+          required: true
+
+    - type: textarea
+      id: impact
+      attributes:
+          label: ❗ Влияние на пользователей
+          placeholder: |
+              Например: 100% пользователей не могут завершить заказ
+      validations:
+          required: true
+
+    - type: input
+      id: env
+      attributes:
+          label: 🌍 Среда
+          placeholder: prod / staging
+      validations:
+          required: true
+
+    - type: textarea
+      id: logs
+      attributes:
+          label: 🧾 Логи / Доп. инфа
+          placeholder: Вставь логи или ошибки из консолей / метрик
+      validations:
+          required: false

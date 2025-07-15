@@ -1,0 +1,25 @@
+# @format
+
+name: 🧩 Sub-task
+description: Подзадача для разбивки большой задачи
+title: "[SUB-TASK]:"
+labels: ["sub-task"]
+assignees: []
+
+body:
+    - type: textarea
+      id: goal
+      attributes:
+          label: 🎯 Что нужно сделать
+          placeholder: |
+              Например: Реализовать компонент формы для создания клиента
+      validations:
+          required: true
+
+    - type: input
+      id: parent
+      attributes:
+          label: 🔗 Родительская задача
+          placeholder: #номер_основной_таски
+      validations:
+          required: true
